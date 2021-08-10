@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="WriteItOut.exe" version="1.0.0.0" publicKeyToken="30f4071385a580b7" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="hnet.com-image (1).ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WriteItOut" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="WriteItOut.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WriteItOut.exe" size="223200">
+      <assemblyIdentity name="WriteItOut" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>MmIjWp+7rtl+Pj1Fsfv2bVtByVlHya2cLOXp6bGLuS0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="hnet.com-image (1).ico" size="16958">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FwPlKEDJ6rkdeiG7g0HusODzq0XCX17H4yQaMPEVjWw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="WriteItOut.exe.config" size="930">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zlSCf+4AdSq2dB4/cxlBRqX3Pr1PlwwNUAu4+wpdGL0=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-4S8A66J\wensy" issuerKeyHash="6f822dbe7aae0e366686184025cb3f987ad59de3" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8ip/iSgFejayN2diWZCHxgE8qVk8nWqz36sbpPGyJpM=</DigestValue></Reference></SignedInfo><SignatureValue>nDNGq0d5oulh7VehMDdMdUW0ZcnhG3oGlRDmXg7bjc6tTl6vFPMGbmOvAV9nhDy1+ZLhNOQu49lZKHGQoaQWU7Yx7479L4i7033qpqjMMqSwHsO4h+qi98GC5HwMLhlkYopxxBqBFUyVzL1qUpaQrHk2BRkokw/PFGpG37f2rYw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uV/3oyT/6Z/iB3q7yjOeXzx2qqdf7DZwRktTeZw8Ee1o2aZ6YIvg7KL3jkZ7QPgUnUnvSFrX73EITDO1HWYqKWwWJQufNIImS3QJCIoWV/rFZuyBW3n2uoCQMY03nqS2rXwyWmwvcR1ffH2W03Rp//9mhITvnzmmMLaESWjJ82k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9326b2f1a41babdfb36a9d3c59a93c01c6879059626737b2367a0528897f2af2" Description="" Url=""><as:assemblyIdentity name="WriteItOut.exe" version="1.0.0.0" publicKeyToken="30f4071385a580b7" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-4S8A66J\wensy</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>hwYL2pw5GuBGABEpPzz0Srqk4+7BUcrsOx3rGdmDTwc=</DigestValue></Reference></SignedInfo><SignatureValue>YKsRnASjdkkcm8pS65YPX4W7Dkw8raJVBrjow3P/q+CWrR8yg+bxrHOkMC+2M9HxSIA95evCJNOj6llpAHDkV5Kg2Jjd2d4aAy8EMLrPGpNFXyuZzcLo+U3D4npEVGUQcPJBzvQfiZgwSWZpHl1Wan6hKE4zuhbQlfwZAKi9jSM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uV/3oyT/6Z/iB3q7yjOeXzx2qqdf7DZwRktTeZw8Ee1o2aZ6YIvg7KL3jkZ7QPgUnUnvSFrX73EITDO1HWYqKWwWJQufNIImS3QJCIoWV/rFZuyBW3n2uoCQMY03nqS2rXwyWmwvcR1ffH2W03Rp//9mhITvnzmmMLaESWjJ82k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQZBobtiSlAJhPHswWxw4HyDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADQAUwA4AEEANgA2AEoAXAB3AGUAbgBzAHkwHhcNMjEwODA1MjMwMTUwWhcNMjIwODA2MDUwMTUwWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADQAUwA4AEEANgA2AEoAXAB3AGUAbgBzAHkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALlf96Mk/+mf4gd6u8oznl88dqqnX+w2cEZLU3mcPBHtaNmmemCL4Oyi945Ge0D4FJ1J70ha1+9xCEwztR1mKilsFiULnzSCJkt0CQiKFlf6xWbsgVt59rqAkDGNN56ktq18MlpsL3EdX3x9ltN0af//ZoSE7585pjC2hEloyfNpAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAawMP6LOkEz2oiTupoNNcDTN/zXhIoA5L6HPWcYSsYkidNcCWi5lNcdsRbH84zsy0+DFuDN3SuqMy6kCV2GVcVfoA2ieU1YWDLNxswLImACQZqV1zMowq7c43PWeVnG1ViF3a6wQyBDBmqUPgKOVnxBBE4Az8uwhhw/Wm1Q1JtlM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
